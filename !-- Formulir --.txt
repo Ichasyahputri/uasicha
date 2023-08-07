@@ -1,0 +1,27 @@
+  <!-- Formulir -->
+  <div class="container mt-4">
+    <h3>Formulir Pemesanan Minuman</h3>
+    <form>
+      <div class="form-group">
+        <label for="nama">Nama:</label>
+        <input type="text" class="form-control" id="nama" placeholder="Masukkan nama">
+      </div>
+      <div class="form-group">
+        <label for="alamat">Alamat:</label>
+        <input type="text" class="form-control" id="alamat" placeholder="Masukkan alamat">
+      </div>
+      <div class="form-group">
+        <label for="minuman">Pilihan Minuman:</label>
+        <select class="form-control" id="minuman">
+          <option value="1">Minuman 1</option>
+          <option value="2">Minuman 2</option>
+          <option value="3">Minuman 3</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="jumlah">Jumlah:</label>
+        <input type="number" class="form-control" id="jumlah" placeholder="Masukkan jumlah">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>

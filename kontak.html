@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Penjualan Minuman</title>
+  <!-- Load Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+    /* CSS Style di sini */
+    
+    
+    /* Carousel */
+    .carousel-item img {
+      height: 400px;
+      object-fit: cover;
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: #333;
+    }
+    
+    .carousel-indicators li {
+      background-color: #333;
+    }
+    
+    .carousel-indicators .active {
+      background-color: #fff;
+    }
+    
+    /* Form */
+    .container {
+      max-width: 600px;
+    }
+    
+    .form-group label {
+      font-weight: bold;
+    }
+    
+    .btn-primary {
+      background-color: #333;
+      border-color: #333;
+    }
+    
+    .btn-primary:hover {
+      background-color: #000;
+      border-color: #000;
+    }
+    
+    /* Additional Styles */
+    body {
+      padding-top: 50px;
+    }
+    
+    h3 {
+      margin-bottom: 30px;
+      color: #333;
+      font-weight: bold;
+    }
+		  /* Mengatur lebar halaman menjadi full width */
+  body, html {
+    width: 100%;
+    margin: 0;
+    padding: 20;
+    overflow-x: hidden;
+  }
+
+  /* Mengatur lebar konten utama */
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 20;
+    margin: 0;
+  }
+      .featured-article {
+      margin-bottom: 30px;
+    }
+    
+    .featured-article img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .featured-article h2 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    
+    .featured-article p {
+      margin-bottom: 10px;
+    }
+    
+    /* Artikel Lainnya */
+    .other-articles {
+      margin-top: 30px;
+    }
+    
+    .other-articles .article-card {
+      margin-bottom: 20px;
+    }
+    
+    .other-articles .article-card img {
+      max-width: 50%;
+      height: auto;
+    }
+    
+    .other-articles .article-card h3 {
+      margin-top: 10px;
+      margin-bottom: 5px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    
+    .other-articles .article-card p {
+      margin-bottom: 5px;
+	/* Footer */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+
+</head>
+<body>
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="#">Royal's Beverages</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="produk.html">Produk</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tentang-kami.html">Tentang Kami</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="kontak.html">Kontak</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container mt-5">
+    <h2>Hubungi Kami</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <form>
+          <div class="form-group">
+            <label for="name">Nama</label>
+            <input type="text" class="form-control" id="name" placeholder="Masukkan Nama Anda">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Masukkan Email Anda">
+          </div>
+          <div class="form-group">
+            <label for="message">Pesan</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Tulis pesan Anda"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <h5>Informasi Kontak</h5>
+        <p>Alamat: Jalan cinta karya No. 123, Kota medan, indonesia</p>
+        <p>Email: info@royalsbeverages.com</p>
+        <p>Telepon: 0123456789</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

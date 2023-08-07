@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Penjualan Minuman</title>
+  <!-- Load Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+ /* CSS Style di sini */
+    /* Carousel */
+    .carousel-item img {
+      height: 400px;
+      object-fit: cover;
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: #333;
+    }
+    
+    .carousel-indicators li {
+      background-color: #333;
+    }
+    
+    .carousel-indicators .active {
+      background-color: #fff;
+    }
+    
+    /* Form */
+    .container {
+      max-width: 600px;
+    }
+    
+    .form-group label {
+      font-weight: bold;
+    }
+    
+    .btn-primary {
+      background-color: #333;
+      border-color: #333;
+    }
+    
+    .btn-primary:hover {
+      background-color: #000;
+      border-color: #000;
+    }
+    
+    /* Additional Styles */
+    body {
+      padding-top: 50px;
+    }
+    
+    h3 {
+      margin-bottom: 30px;
+      color: #333;
+      font-weight: bold;
+    }
+		  /* Mengatur lebar halaman menjadi full width */
+  body, html {
+    width: 100%;
+    margin: 0;
+    padding: 20;
+    overflow-x: hidden;
+  }
+
+  /* Mengatur lebar konten utama */
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 20;
+    margin: 0;
+  }
+      .featured-article {
+      margin-bottom: 30px;
+    }
+    
+    .featured-article img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .featured-article h2 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    
+    .featured-article p {
+      margin-bottom: 10px;
+    }
+    
+    /* Artikel Lainnya */
+    .other-articles {
+      margin-top: 30px;
+    }
+    
+    .other-articles .article-card {
+      margin-bottom: 20px;
+    }
+    
+    .other-articles .article-card img {
+      max-width: 50%;
+      height: auto;
+    }
+    
+    .other-articles .article-card h3 {
+      margin-top: 10px;
+      margin-bottom: 5px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    
+    .other-articles .article-card p {
+      margin-bottom: 5px;
+	/* Footer */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+
+</head>
+<body>
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+    <a class="navbar-brand" href="#">Royal's Beverages</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+           <a class="nav-link" href="index.html">Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="produk.html">Produk</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tentang-kami.html">Tentang Kami</a>
+        </li>
+		  
+        <li class="nav-item">
+          <a class="nav-link" href="kontak.html">Kontak</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+ <div class="container mt-5">
+    <div class="row">
+      <!-- Konten: Visi Misi Perusahaan -->
+      <div class="col-lg-6 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Visi Misi Perusahaan</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Visi</h6>
+            <p class="card-text">Menjadi penyedia minuman terkemuka yang memberikan kepuasan kepada pelanggan.</p>
+            <h6 class="card-subtitle mb-2 text-muted">Misi</h6>
+            <ul>
+              <li>Menyediakan minuman berkualitas tinggi</li>
+              <li>Memberikan pelayanan terbaik kepada pelanggan</li>
+              <li>Mendorong inovasi dalam industri minuman</li>
+              <li>Menjaga komitmen terhadap keberlanjutan dan lingkungan</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Konten: Sejarah Perusahaan -->
+      <div class="col-lg-6 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Sejarah Perusahaan</h5>
+            <p class="card-text">Perusahaan kami didirikan pada tahun 2019 dengan visi untuk memberikan minuman berkualitas kepada pelanggan. Sejak itu, kami terus tumbuh dan berkembang menjadi salah satu pemain utama di industri minuman.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Konten: Penghargaan dan Pengakuan -->
+      <div class="col-lg-6 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Penghargaan dan Pengakuan</h5>
+            <ul>
+              <li>Penghargaan Terbaik dalam Kategori Inovasi Minuman (2020)</li>
+              <li>Pengakuan atas Kontribusi dalam Keberlanjutan Lingkungan (2021)</li>
+              <li>Penghargaan Kualitas Produk Tertinggi (2022)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Konten: Kebijakan Perusahaan -->
+      <div class="col-lg-6 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Kebijakan Perusahaan</h5>
+            <p class="card-text">Perusahaan kami berkomitmen untuk memberikan produk berkualitas tinggi, melindungi lingkungan, serta mematuhi standar keberlanjutan dan etika bisnis. Kami juga berupaya memberikan manfaat yang positif bagi masyarakat dan berkontribusi dalam memajukan industri minuman secara global.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Konten: Nilai dan Keunggulan -->
+      <div class="col-lg-6 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Nilai dan Keunggulan</h5>
+            <ul>
+              <li>Kualitas terbaik dalam setiap produk</li>
+              <li>Inovasi dalam formulasi dan rasa</li>
+              <li>Pelayanan pelanggan yang ramah dan responsif</li>
+              <li>Komitmen terhadap keberlanjutan lingkungan</li>
+              <li>Penggunaan bahan baku berkualitas tinggi</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
